@@ -1,4 +1,4 @@
-# DOCKER SWAR + TERRAFORM + ANSIBLE
+# DOCKER SWARM + TERRAFORM + ANSIBLE
 Walking through how you can create Swarm on AWS.
 We will use Terraform and Ansible to complete the bootstrap process.
 
