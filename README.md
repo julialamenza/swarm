@@ -16,6 +16,6 @@ We will use Terraform and Ansible to complete the bootstrap process.
 Build Swarm cluster with ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -b -i swarm-inventory swarm.yml --private-key="you key path"
 
 Delete all the Infrastructure with terraform destroy
-Delete just the swar using ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -b -i swarm-inventory swarm-destroy.yml
+Delete just the swarm cluster using ANSIBLE_HOST_KEY_CHECKING=False ansible-playbook -b -i swarm-inventory swarm-destroy.yml
 
 #### PR's are welcome
